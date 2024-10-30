@@ -1,0 +1,95 @@
+
+.am_wpie * {
+	margin: 0;
+	padding: 0;
+}
+
+.am_wpie {
+	font-size: 12px;
+	float:left;
+}
+
+.am_wpie dl {
+	margin: 10px 0 0 0;
+	height: 160px;
+	width: 140px;
+}
+
+.am_wpie dl dd {
+	list-style-type: none;
+}
+
+.am_wpie dl dd.today {
+	float: left;
+	height: 40px;
+	margin: 0 0 10px 0;
+	width: 140px;
+}
+
+.am_wpie dl dd.today .condition {
+	background-color: #0096ff;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 0 1px 0;
+	text-align: center;
+	width: 140px;
+}
+
+.am_wpie dl dd.today .temperature {
+	background-color: #fadb49;
+	color: #333;
+	display: block;
+	float: left;
+	font-size: 12px;
+	margin: 0 1px 0 0;
+	text-align: center;
+	height:20px;
+	line-height:20px;
+	width:100%
+}
+
+.am_wpie dl dd.day1,
+.am_wpie dl dd.day2 {
+	margin-right: 10px;
+}
+
+.am_wpie dl dd.day1,
+.am_wpie dl dd.day2,
+.am_wpie dl dd.day3 {
+	float: left;
+	height: 75px;
+	width: 40px;
+}
+
+.am_wpie .day {
+	background-color: #0096ff;
+	color: #fff;
+	display: block;
+	height: 16px;
+	line-height: 16px;
+	margin: 0 0 1px 0;
+	text-align: center;
+	width: 40px;
+}
+
+.am_wpie .temperature {
+	background-color: #fadb49;
+	color: #333333;
+	display: block;
+	font-size: 11px;
+	height: 20px;
+	line-height: 20px;
+	margin: 1px 0 0 0;
+	text-align: center;
+	width: 40px;
+}
+
+#sidebar .am_wpie img {
+	border: 0;
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
